@@ -1,0 +1,58 @@
+# Secrets & Local Configurations
+.env
+.env.local
+.env.*.local
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+*.venv
+
+# Python Bytecode & Cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Databases (SQLite & local db files)
+*.db
+*.sqlite
+*.sqlite3
+backend/database.db
+backend/database/generations.db
+
+# IDEs & Editor Configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Streamlit Secrets/User configs
+.streamlit/secrets.toml
+
+# Antigravity/Agentic Framework Cache
+.agents/
+.gemini/
+.antigravitycli/
